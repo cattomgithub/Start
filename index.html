@@ -103,7 +103,7 @@
         }
 
         window.onload = () => {
-            
+            let xhr = new XMLHttpRequest();
             xhr.send();
             // Set up the clock
             document.getElementById("clock").innerHTML = getTime();
