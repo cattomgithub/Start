@@ -2,6 +2,9 @@
 A Simple Startpage.
 
 Demo:https://start.cattom.space/
+
+**`CNAME` 为非必要文件，Fork 后请自行删除。**
+**`CNAME` is not a necessary file. Please delete it after Fork.**
 ## What has been improved? | 改进了什么？
  - Replace the original `openweatherapi` with a more user-friendly`Xinzhi Weacher` for Chinese users.
  - Click the `Ctrl` key to exhale your search (using Google by default), enter what you need to search, and then return.Click `Esc` to end the search.
