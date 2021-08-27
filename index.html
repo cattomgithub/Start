@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Start</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cattomgithub/Start@master/styles.css">
-    <link href="https://cdn.jsdelivr.net/gh/cattomgithub/Start@master/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/gh/cattomgithub/Start@master/favicon.ico" rel="shortcut icon"
+        type="image/x-icon" />
 </head>
+
 <body>
     <div id="search">
-        <input id="search-field" type="text" name="search-field" onkeypress="return search(event)"/>
+        <input id="search-field" type="text" name="search-field" onkeypress="return search(event)" />
     </div>
     <div class="container">
-    <div id="clock"></div>
-    <div id="tp-weather-widget"></div>
-  <script>
-    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-    window.SeniverseWeatherWidget('show', {
-      flavor: "bubble",
-      location: "WEBRU49CJZSE",
-      geolocation: true,
-      language: "auto",
-      unit: "c",
-      theme: "auto",
-      token: "d34e7905-e84a-4cfb-aee6-eb14624691a4",
-      hover: "enabled",
-      container: "tp-weather-widget"
-    })
-  </script>
-        
+        <div id="clock"></div>
+        <div id="tp-weather-widget"></div>
+        <script>
+            (function (a, h, g, f, e, d, c, b) { b = function () { d = h.createElement(g); c = h.getElementsByTagName(g)[0]; d.src = e; d.charset = "utf-8"; d.async = 1; c.parentNode.insertBefore(d, c) }; a["SeniverseWeatherWidgetObject"] = f; a[f] || (a[f] = function () { (a[f].q = a[f].q || []).push(arguments) }); a[f].l = +new Date(); if (a.attachEvent) { a.attachEvent("onload", b) } else { a.addEventListener("load", b, false) } }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+            window.SeniverseWeatherWidget('show', {
+                flavor: "bubble",
+                location: "WEBRU49CJZSE",
+                geolocation: true,
+                language: "auto",
+                unit: "c",
+                theme: "auto",
+                token: "d34e7905-e84a-4cfb-aee6-eb14624691a4",
+                hover: "enabled",
+                container: "tp-weather-widget"
+            })
+        </script>
+
         <div class="bookmark-container">
             <div class="bookmark-set">
                 <div class="bookmark-title">Cat Tom's</div>
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://cattom.site/" target="_blank">Homepage</a>
                     <a class="bookmark" href="https://blog.cattom.site/" target="_blank">Blog</a>
-                    <a class="bookmark" href="https://git.cattom.site/" target="_blank">Gitea</a>      
+                    <a class="bookmark" href="https://git.cattom.site/" target="_blank">Gitea</a>
                     <a class="bookmark" href="https://cloud.cattom.site:81/" target="_blank">Cloud</a>
                     <a class="bookmark" href="https://game.cattom.site:82/" target="_blank">Game</a>
                     <a class="bookmark" href="https://comment.cattom.site:83/ui/login" target="_blank">Comment</a>
                     <a class="bookmark" href="https://monitor.cattom.site/" target="_blank">Monitor</a>
                     <a class="bookmark" href="https://status.cattom.site/" target="_blank">Status</a>
-                    <a class="bookmark" href="https://stats.uptimerobot.com/qZL39UOv8O" target="_blank">Status-UptimeRobot</a>
+                    <a class="bookmark" href="https://stats.uptimerobot.com/qZL39UOv8O"
+                        target="_blank">Status-UptimeRobot</a>
                     <a class="bookmark" href="https://panel.cattom.site:8888/cattom/" target="_blank">Panel 1</a>
                     <a class="bookmark" href="https://panel2.cattom.site:8888/cattom/" target="_blank">Panel 2</a>
                     <!--<a class="bookmark" href="https://panel3.cattom.site:8888/cattom/" target="_blank">Panel 3</a>-->
 
                 </div>
             </div>
-             <div class="bookmark-set">
-            <div class="bookmark-title">Daily</div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Daily</div>
                 <div class="bookmark-inner-container">
-                   
-                   <a class="bookmark" href="https://google.com/" target="_blank">Google</a>
-                   <a class="bookmark" href="https://baidu.com/" target="_blank">Baidu</a>
-                   <a class="bookmark" href="https://bilibili.com/" target="_blank">Bilibili</a>
-                   <a class="bookmark" href="https://github.com/" target="_blank">Github</a>
-                   <a class="bookmark" href="https://mail.google.com/" target="_blank">Gmail</a>
-                   <a class="bookmark" href="https://www.mjjloc.com/" target="_blank">MJJ 导航</a>                  
-                   <a class="bookmark" href="https://www.v2ex.com/" target="_blank">V2EX</a>
-                   <a class="bookmark" href="https://flomoapp.com" target="_blank">flomo</a>
-                   <a class="bookmark" href="https://www.dida365.com/webapp/" target="_blank">滴答清单</a>
-                   <!--<a class="bookmark" href="https://youtube.com/" target="_blank">YouTube</a>
+
+                    <a class="bookmark" href="https://google.com/" target="_blank">Google</a>
+                    <a class="bookmark" href="https://baidu.com/" target="_blank">Baidu</a>
+                    <a class="bookmark" href="https://bilibili.com/" target="_blank">Bilibili</a>
+                    <a class="bookmark" href="https://github.com/" target="_blank">Github</a>
+                    <a class="bookmark" href="https://mail.google.com/" target="_blank">Gmail</a>
+                    <a class="bookmark" href="https://www.mjjloc.com/" target="_blank">MJJ 导航</a>
+                    <a class="bookmark" href="https://www.v2ex.com/" target="_blank">V2EX</a>
+                    <a class="bookmark" href="https://flomoapp.com" target="_blank">flomo</a>
+                    <a class="bookmark" href="https://www.dida365.com/webapp/" target="_blank">滴答清单</a>
+                    <!--<a class="bookmark" href="https://youtube.com/" target="_blank">YouTube</a>
                    <a class="bookmark" href="https://zh.wikipedia.org/" target="_blank">Wikipedia</a>-->
                 </div>
             </div>
@@ -81,11 +85,11 @@
                     <a class="bookmark" href="https://aliyun.com" target="_blank">Aliyun CN</a>
                     <!--<a class="bookmark" href="https://www.alibabacloud.com/zh" target="_blank">Alibaba Cloud Global</a>-->
                     <a class="bookmark" href="https://portal.azure.com/" target="_blank">Azure Global</a>
-                    <!--<a class="bookmark" href="https://portal.azure.cn/" target="_blank">Azure CN</a>--> 
+                    <!--<a class="bookmark" href="https://portal.azure.cn/" target="_blank">Azure CN</a>-->
                     <a class="bookmark" href="https://ユーザーパネル.ぜんにっぽんくうゆ.com/user" target="_blank">ぜんにっぽんくうゆ</a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
@@ -104,9 +108,9 @@
                 sec = date.getSeconds(),
                 hour = date.getHours();
 
-            return "" + 
-                (hour < 10 ? ("0" + hour) : hour) + ":" + 
-                (min < 10 ? ("0" + min) : min) + ":" + 
+            return "" +
+                (hour < 10 ? ("0" + hour) : hour) + ":" +
+                (min < 10 ? ("0" + min) : min) + ":" +
                 (sec < 10 ? ("0" + sec) : sec);
         }
 
@@ -129,9 +133,9 @@
             // Set up the clock
             document.getElementById("clock").innerHTML = getTime();
             // Set clock interval to tick clock
-            setInterval( () => {
+            setInterval(() => {
                 document.getElementById("clock").innerHTML = getTime();
-            },100);
+            }, 100);
         }
 
         document.addEventListener("keydown", event => {
@@ -146,4 +150,5 @@
         });
     </script>
 </body>
+
 </html>
