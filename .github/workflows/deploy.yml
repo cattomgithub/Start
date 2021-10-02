@@ -29,7 +29,7 @@ jobs:
           accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
           accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
           bucket: cattom-start
-          folder: /public
+          folder: public
           endpoint: start.cattom.site
           cname: true
           notFoundPage: index.html
