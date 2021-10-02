@@ -1,5 +1,5 @@
 # workflow name
-name: Hexo Blog CI
+name: Depoly
 
 # 在main分支上有push命令时触发该流程
 on:
