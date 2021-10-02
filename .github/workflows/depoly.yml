@@ -16,16 +16,12 @@ jobs:
             - name: Checkout Repository master branch
               uses: actions/checkout@master
 
-            - name: Setup Node.js 10.x
-              uses: actions/setup-node@master
-              with:
-                  node-version: '10.x'
-                  
-            - name: setup aliyun oss
+            - name: setup oss
               uses: manyuanrong/setup-ossutil@master
               with:
                   endpoint: oss-cn-hongkong.aliyuncs.com
                   access-key-id: ${{ secrets.ACCESS_KEY_ID }} # 刚刚配置过的AccessKeyId
                   access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }} # 刚刚配置过的AccessKeySecret
-            - name: cp files to aliyun
+
+            - name: copy files to oss
               run: ossutil cp -rf public oss://cattom-start/ # 将xxxxx改为创建的Bucket名称，-rf表示覆盖
