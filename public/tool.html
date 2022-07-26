@@ -50,13 +50,21 @@
             --switch-checked-background-color: var(--primary);
         }
 
-        /*#bg {
-            background-image: url('https://www.dmoe.cc/random.php')
-        }*/
+        #bg {
+            background-image: url('https://www.dmoe.cc/random.php');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position-x: center;
+        }
 
         #center {
             text-align: center;
-            margin: 0em;
+            margin: 0;
+        }
+
+        #shadow {
+            background-color: #ffffff70;
         }
     </style>
 </head>
@@ -75,14 +83,14 @@
         </ul>
     </nav>
     <main class="container">
-        <hgroup>
+        <hgroup style="margin: 0">
             <h2>Cat Tom's Tool</h2>
             <h3>Share some tools I made myself.</h3>
         </hgroup>
         <div class="grid">
             <div>
-                <article>
-                    <header>
+                <article id="shadow">
+                    <header id="shadow">
                         <h2 id="center">Push file in server to Alibaba OSS</h2>
                     </header>
                     <button data-target="modal-1" onClick="toggleModal(event)">Click Me!</button>
@@ -101,7 +109,8 @@
                                     onClick="toggleModal(event)">
                                     Cancel
                                 </a>
-                                <a href="#confirm" role="button" data-target="modal-1" onClick="SentMessageToWebhook(),toggleModal(event)">
+                                <a href="#confirm" role="button" data-target="modal-1"
+                                    onClick="SentMessageToWebhook(),toggleModal(event)">
                                     Confirm
                                 </a>
                             </footer>
@@ -110,14 +119,17 @@
                 </article>
             </div>
             <div>
-                <article>
-                    <header>Lorem ipsum dolor sit amet.</header>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illum soluta, eum libero saepe est enim laboriosam vero officia fuga impedit at magni eius! Obcaecati quibusdam deleniti impedit unde quas.
+                <article id="shadow">
+                    <header id="shadow">Lorem ipsum dolor sit amet.</header>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illum soluta, eum libero saepe est
+                    enim laboriosam vero officia fuga impedit at magni eius! Obcaecati quibusdam deleniti impedit unde
+                    quas.
                 </article>
             </div>
         </div>
 
         <footer>
+            <br>
             <p style="text-align: center">By <a href="https://cattom.site/">Cat Tom</a></p>
         </footer>
     </main>
