@@ -1,4 +1,4 @@
-name: Depoly to Alibaba OSS
+name: Deploy to Alibaba OSS
 
 on:
   push:
